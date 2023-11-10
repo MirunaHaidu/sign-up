@@ -1,0 +1,178 @@
+:root {
+    font-family: 'Fauna One';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+}
+
+.left{
+    flex-grow: 1;
+    position:relative;
+    width: 40vw;
+    background-image: url(https://images.unsplash.com/photo-1531121597993-078d1eba89ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvdW50cnlzaWRlfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    line-height: 2rem;
+    padding: 0px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-20rem;
+}
+
+.llama-logo{
+    width: 10rem;
+    padding:10px;
+}
+h1{
+    color: #f1faee;
+}
+
+.right{
+    background-color: #FEFEFA;
+    width:60vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.main-text{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first-text,
+.form-text{
+   font-weight: bold;
+   font-size: 1rem;
+}
+
+.second-text{
+    font-size: 1rem;
+}
+
+form{
+    padding:3rem;
+    background-color: #F2F3F4;
+    padding-right: 0px;
+    box-shadow: #004953 0px 10px 20px -10px;
+
+}
+
+.form{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 0.8rem;
+    
+}
+
+input{
+    border: 0;
+    border-bottom: 2px solid #1B1B1B;
+    height: 30px;
+    font-size: 18px;
+    background-color: #F2F3F4;
+}
+
+
+input:focus{
+    opacity: 100%;
+    outline: none;
+    border-bottom: 2px solid #002366;
+}
+
+
+::placeholder{
+    font-size: 18px;
+}
+
+
+.button {
+  background: #004953;
+  border-radius: 999px;
+  box-shadow: #004953 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  width: fit-content;
+  border: 0;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.button:hover{
+    background-color: #007E8F;
+}
+
+.log-in-text,
+.log-in{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.log-in{
+ 
+    text-decoration: none;
+    color:#004953;
+}
+
+.legal{
+    margin-left: 45px;
+}
+
+
+.legal{
+    margin-left: 0px;
+    color: red;
+    font-weight: bold;
+}
+
+input:valid{
+    border-color: green;
+}
+
+

@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One" rel="stylesheet" />
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+    <main>
+        <div class="left">
+            <div class="logo">
+                <img class="llama-logo" src="./image/llama_3284064.png" alt="Llama logo">
+                <h1 class="logo-text">Llama drama</h1>
+            </div>
+
+        </div>
+
+        <div class="right">
+            <div class="main-text">
+                <p class="first-text">Welcome to the Lama Lounge! 🎉 Join our flock and embark on a journey of joyous
+                    exploration. Sign up
+                    now to unlock the secrets of fluffy happiness, where each registration brings you one step closer to
+                    the ultimate llama-tastic adventure! Get ready to spice up your life with a pinch of llama magic.
+                    🦙✨</p>
+                <p class="second-text"> Lama-zing times await! Sign up and let the fun begin!</p>
+            </div>
+            <form action="#" id="signupForm">
+                <p class="form-text">Rolling with the Llamas - Join the Journey!</p>
+                <div class="form">
+                    <div class="input">
+                        <input type="text" id="first_name" name="first_name" placeholder="FIRST NAME" required>
+                        <p id="error-first-name" class="legal"></p>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="last_name" name="last_name" placeholder="LAST NAME" required>
+                        <p id="error-last-name" class="legal"></p>
+                    </div>
+
+                    <div class="input">
+                        <input type="email" id="email" name="email" placeholder="EMAIL" required>
+                        <p id="error-email" class="legal"></p>
+                    </div>
+
+                    <div class="input">
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="PHONE NUMBER"
+                            pattern="[07][0-9]{9}" required>
+                            <p id="error-phone" class="legal"></p>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" id="password" name="password" placeholder="PASSWORD" required>
+                        <p id="error-password" class="legal"></p>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" id="confirm_password" name="confirm_password"
+                            placeholder="CONFIRM PASSWORD" required>
+                            <p id="error-password-confirm" class="legal"></p>
+                    </div>
+                </div>
+            </form>
+            <div>
+                <button class="button" type="button">Create an account</button>
+                <p class="log-in-text">Already have an account?</p>
+                <a href="#" class="log-in">Log in</a>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
 </body>
+
 </html>
